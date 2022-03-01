@@ -58,7 +58,7 @@ function draw() {
       // //reset the background
        if (scene.x < 0){
            scene.x = scene.width/2;
-      //    }
+          }
       // //moving bow
        bow.y = World.mouseY      
       // //stop background movement
@@ -177,4 +177,3 @@ function pinkBalloon() {
   arrow.scale = 0.3;
 //  arrowGroup.add(arrow);
  }
-}
